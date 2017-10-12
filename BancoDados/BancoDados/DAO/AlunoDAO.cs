@@ -35,6 +35,10 @@ namespace BancoDados
                 {
                     throw new Exception(ex.Message, ex);
                 }
+                finally
+                {
+                    connection.close();
+                }
             }
         }
     }
