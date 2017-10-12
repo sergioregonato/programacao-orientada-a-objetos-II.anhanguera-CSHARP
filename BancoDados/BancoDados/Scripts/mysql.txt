@@ -1,4 +1,4 @@
-﻿CREATE SCHEMA `faculdade1` ;
+﻿CREATE SCHEMA `faculdade` ;
 
 CREATE TABLE `faculdade`.`aluno` (
   `id_aluno` INT NOT NULL,
